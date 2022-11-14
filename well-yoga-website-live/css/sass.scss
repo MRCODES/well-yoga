@@ -1,0 +1,176 @@
+//VARIABLE COLORS
+$darkgreybg: #11111120; //20% Opacity
+$darkgreytxt: #111111;
+$white: whitesmoke;
+$teal: teal;
+$deepred: #bf0303;
+$yogapurple: #7800c3;
+
+/*
+//grid-breakpoints:
+$xs: 0;
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
+$xxl: 1400px;
+*/
+
+@mixin for-phone-only {
+    @media (max-width: 599px) {
+        @content;
+    }
+}
+
+@mixin for-tablet-portrait-up {
+    @media (min-width: 600px) {
+        @content;
+    }
+}
+
+@mixin for-tablet-landscape-up {
+    @media (min-width: 900px) {
+        @content;
+    }
+}
+
+@mixin for-desktop-up {
+    @media (min-width: 1200px) {
+        @content;
+    }
+}
+
+@mixin for-big-desktop-up {
+    @media (min-width: 1800px) {
+        @content;
+    }
+}
+
+@mixin h1-style {
+        text-align: center;
+        font-size: clamp(1em, 6.5vw, 5em);
+        margin-top: 13%;
+}
+
+@mixin chakra-color {
+    color: black;
+    background-image: url(/team-photos/colors.png);
+    background-repeat: repeat;
+    background-size: contain;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
+@mixin cotton-candy {
+    color: black;
+    background-image: linear-gradient(270deg, #fff, #fff);
+    background-repeat: repeat;
+    background-size: contain;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
+@mixin nav-down {
+    animation: faded ease-in 750ms 1;
+}
+
+@mixin center-absolute {
+    width: 9%;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6%;
+}
+
+@mixin left-absolute {
+    width: 15%;
+    position: absolute;
+    z-index: 1;
+    top: 3%;
+    left: 0;
+    rotate: calc(-10deg);
+}
+
+
+
+/*====================================================*/
+
+.sub-title {
+    @include chakra-color;
+}
+
+.description {
+    color: white;
+    background-color: transparent;
+}
+
+.team-logo {
+    @include left-absolute();
+}
+
+.feature-title {
+    @include cotton-candy;
+}
+
+.nav-links-container a:hover {
+    @include chakra-color;
+}
+
+.slogan {
+    color: white;
+}
+
+.feature-text,
+.feature-title {
+    color: #fff;
+}
+
+.what-customers {
+    color: white;
+}
+
+.testimony-title {
+    color: white;
+}
+
+.testimony-text {
+    color: white;
+}
+
+.logo-well p {
+    @include chakra-color();
+    background-position: 50% 10%;
+}
+
+#logo-period {
+    @include chakra-color();
+    background-size: cover;
+    background-position: 100% 50%;
+    background-size: 500px;
+}
+
+.slogan {
+    @include chakra-color();
+    background-position: 100% 50%;
+    background-size: 500px;
+}
+
+
+
+h1 {
+    @include h1-style();
+    @include chakra-color();
+
+}
+
+h4 {
+    @include chakra-color();
+}
+

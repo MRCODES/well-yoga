@@ -1,0 +1,95 @@
+@media screen and (max-width: 780px) {
+    .utopia {
+        font-size: 2.8em;
+    }
+
+    .utopia-sub {
+        font-size: 1.3em;
+    }
+
+    .section-of-three {
+        display: flex;
+        flex-direction: column;
+        grid-gap: 10px;
+        color: white;
+        height: 1000px;
+        background-color: #fff;
+        padding: 5%;
+    }
+
+    .section-of-three-left,
+    .section-of-three-middle,
+    .section-of-three-right {
+        padding: 10px;
+        height: 800px;
+    }
+
+    .total-text {
+        margin-top: 10%;
+        background-color: #000;
+    }
+
+    /* ============================================== |||||||||||| Testimony |||||||||||| ============================================== */
+    .testimony_section {
+        height: 1300px;
+        border-bottom: rgba(50, 50, 50, 0.069) 1px solid;
+        border-top: rgba(50, 50, 50, 0.118) 1px solid;
+        width: 100%;
+    }
+
+    .three-article-testimony {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 70%;
+    }
+
+    .section-of-two {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        padding: 2%;
+        height: 450px;
+        grid-gap: 10px;
+        background-color: #fff;
+    }
+
+    .testimony-text {
+        width: 100%;
+        padding: 5%;
+        text-align: center;
+        color: black;
+    }
+
+    .testimony-text p {
+        font-size: 14px;
+    }
+}
+
+/* ============================================== |||||||||||| ABOUT EVENTS |||||||||||| ============================================== */
+.about-events {
+    margin: 0;
+    background-color: white;
+}
+
+/* ============================================== |||||||||||| About Events Logo |||||||||||| ============================================== */
+.events-one h1 {
+    text-align: center;
+    font-size: 2.5em;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 900;
+    color: yellowgreen;
+    font-style: italic;
+}
+
+@media screen and (max-width: 320px) {
+    .utopia {
+        font-size: 2.5em;
+        width: 100%;
+    }
+
+    .utopia-sub {
+        font-size: 1.0em;
+        width: 100%;
+    }
+}

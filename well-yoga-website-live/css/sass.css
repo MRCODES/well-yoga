@@ -1,0 +1,141 @@
+/*
+//grid-breakpoints:
+$xs: 0;
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
+$xxl: 1400px;
+*/
+/*====================================================*/
+.sub-title {
+  color: black;
+  background-image: url(/team-photos/colors.png);
+  background-repeat: repeat;
+  background-size: contain;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.description {
+  color: white;
+  background-color: transparent;
+}
+
+.team-logo {
+  width: 15%;
+  position: absolute;
+  z-index: 1;
+  top: 3%;
+  left: 0;
+  rotate: -10deg;
+}
+
+.feature-title {
+  color: black;
+  background-image: linear-gradient(270deg, #fff, #fff);
+  background-repeat: repeat;
+  background-size: contain;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.nav-links-container a:hover {
+  color: black;
+  background-image: url(/team-photos/colors.png);
+  background-repeat: repeat;
+  background-size: contain;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.slogan {
+  color: white;
+}
+
+.feature-text,
+.feature-title {
+  color: #fff;
+}
+
+.what-customers {
+  color: white;
+}
+
+.testimony-title {
+  color: white;
+}
+
+.testimony-text {
+  color: white;
+}
+
+.logo-well p {
+  color: black;
+  background-image: url(/team-photos/colors.png);
+  background-repeat: repeat;
+  background-size: contain;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  background-position: 50% 10%;
+}
+
+#logo-period {
+  color: black;
+  background-image: url(/team-photos/colors.png);
+  background-repeat: repeat;
+  background-size: contain;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  background-size: cover;
+  background-position: 100% 50%;
+  background-size: 500px;
+}
+
+.slogan {
+  color: black;
+  background-image: url(/team-photos/colors.png);
+  background-repeat: repeat;
+  background-size: contain;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  background-position: 100% 50%;
+  background-size: 500px;
+}
+
+h1 {
+  text-align: center;
+  font-size: clamp(1em, 6.5vw, 5em);
+  margin-top: 13%;
+  color: black;
+  background-image: url(/team-photos/colors.png);
+  background-repeat: repeat;
+  background-size: contain;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+h4 {
+  color: black;
+  background-image: url(/team-photos/colors.png);
+  background-repeat: repeat;
+  background-size: contain;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}/*# sourceMappingURL=sass.css.map */
